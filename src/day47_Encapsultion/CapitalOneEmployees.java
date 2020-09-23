@@ -1,0 +1,73 @@
+package day47_Encapsultion;
+
+import com.sun.xml.internal.bind.v2.model.core.ID;
+
+/*
+ 2. create a class called CapitalOneEmployees
+                instance variables:
+                        employeeName
+                        employeeAge
+                        jobTitle
+                    private ID
+                    private salary
+                    private address
+                    company name = "Capital One"
+                    generate getters & setters for private variables
+
+ */
+public class CapitalOneEmployees {
+
+    public String employeeName;
+    public int age;
+    public String jobTitle;
+
+    public CapitalOneEmployees(String employeeName, int age, String jobTitle) {
+        this.employeeName = employeeName;
+        this.age = age;
+        this.jobTitle = jobTitle;
+    }
+
+
+
+    public static String companyName;  // static public variable
+
+    static{
+        companyName="CapitalOne";  // static block to initialize a static variable
+    }
+
+
+
+    private int ID;
+    private double salary;
+    private String address;  // private variables
+
+    /// through SETTER we will be able to set the info
+    public void setID(int ID) { this.ID = ID; }
+
+    public void setSalary(double salary) { this.salary = salary; }
+
+    public void setAddress(String address) { this.address = address; }
+
+    // throuugh Getter we can called it outside the classes
+    public int getID() { return ID; }
+
+    public double getSalary() { return salary; }
+
+    public String getAddress() { return address; }
+
+    public String toString(){
+        return companyName+
+                "\nName: "+employeeName+
+                "\nAge: "+age+
+                "\nJob Title: "+jobTitle+
+                "\nID: "+getID()+
+                "\nAnnual Salary: "+getSalary()+
+                "\nAddress: "+getAddress();
+    }
+
+
+
+
+
+
+}

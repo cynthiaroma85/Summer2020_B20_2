@@ -1,0 +1,15 @@
+package day50__Inheritance_Overriding.CarTask;
+/*
+Car:
+	start(): Insert the key
+			 twist ignition key to start
+ */
+public class Car {
+
+    public void start(){  // accion
+        System.out.println("Insert the key");
+        System.out.println("twist ignition key to start");
+    }
+
+
+}
