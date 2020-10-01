@@ -1,4 +1,4 @@
-package day55_Abstraction.ShapeTask;
+package day55_Abstraction.ShapesTask;
 
 /*
 3. create a sub class of shape called Rectangle

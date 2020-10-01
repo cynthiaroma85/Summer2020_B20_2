@@ -21,9 +21,7 @@ public class Days {
         System.out.println();
 
         System.out.println("==============================");
-       Scanner
-
-               scan = new Scanner(System.in);
+       Scanner scan = new Scanner(System.in);
 
         System.out.println("Enter a number between 1 ~7");
         int n = scan.nextInt();

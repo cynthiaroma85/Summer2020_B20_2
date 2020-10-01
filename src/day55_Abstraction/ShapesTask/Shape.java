@@ -1,4 +1,4 @@
-package day55_Abstraction.ShapeTask;
+package day55_Abstraction.ShapesTask;
 
 
 public abstract class Shape { //cannot create object, cannot be final

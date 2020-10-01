@@ -13,7 +13,7 @@ public abstract class AbstractClass_VS_Interface {
 
     public void method1(){ }
     public static void method2(){ }
-    public abstract void method3();  // only way to declare abtract method by using Abstract KEYWORD
+   public abstract void method3();  // only way to declare abtract method by using Abstract KEYWORD
     public AbstractClass_VS_Interface(int a){ // constructor
         this.a=a;
     }
@@ -26,7 +26,7 @@ public abstract class AbstractClass_VS_Interface {
 
 
     public static void main(String[] args) {
-     //   Math.PI=100;  static and final
+     //  Math.PI=100;  static and final
     }
 
 }
